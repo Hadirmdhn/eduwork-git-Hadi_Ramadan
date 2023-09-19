@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Dynamic type</title>
+</head>
+
+<body>
+    <p id="demo"></p>
+    <script>
+        function checkCondition(x, y) {
+            if (x > y) {
+                return "Hore saya bisa";
+            } else {
+                return "Tidak bisa";
+            }
+        }
+
+        let x = 10;
+        let y = 5;
+        let result = checkCondition(x, y);
+
+        document.getElementById("demo").innerHTML = result;
+    </script>
+</body>
+
+</html>
